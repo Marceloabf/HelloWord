@@ -1,56 +1,18 @@
-* {
-    background-color: #000;
+.depoimento {
+  width: 300px;
+  height: 300px;
 }
 
-
-/* dimensionamento de caixa */
-
-*,
-*::before,
-*::after .selector-for-some-widget {
-    box-sizing: border-box;
+.flexvideos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-body {
-    font-family: 'Sanchez', sans-serif;
+.flexvideos h1 {
+  color: #40e0d0;
 }
 
-.navbar li {
-    display: inline-block;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1em;
-    padding-left: 1em;
-    background-color: #000;
-}
-
-.navbar a {
-    color: #BF0436;
-    width: 1em 1em;
-    background-color: #000;
-    text-align: center;
-    display: block;
-    padding: 1em;
-    font-size: 1em;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-}
-
-.navbar a:hover {
-    color: #F8D8DD;
-    font-size: 1.00em;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-#icone:hover {
-    width: 4em;
-    height: 4em;
-    cursor: pointer;
-}
-
-#icone:onclick {
-    width: 1em;
-    height: 1em;
+.flexvideos h3 {
+  color: hotpink;
 }
