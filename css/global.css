@@ -1,7 +1,10 @@
 * {
   box-sizing: border-box;
 }
-
+body {
+  background: #000;
+  font-family: 'Sanchez', serif;
+}
 .navbar li {
   display: inline-block;
   text-transform: uppercase;
